@@ -3,7 +3,10 @@
     justify-content: center;
 }
 
-.btn-num {
+.btn-num,
+.btn-operator,
+.btn-clear,
+.btn-equal {
     font-size: 40px;
     margin: 5px;
 }
@@ -24,4 +27,6 @@
     margin: 10px;
     font-size: 30px;
     border-radius: 25px;
+    padding: 10px;
 }
+
