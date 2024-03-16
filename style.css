@@ -1,14 +1,38 @@
-.body {
+body {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
+/* buttons */
 .btn-num,
 .btn-operator,
 .btn-clear,
 .btn-equal {
-    font-size: 40px;
+    border: 1px solid transparent;
+    font-size: 25px;
     margin: 5px;
+    color: black;
+}
+
+.btn-num:active,
+.btn-clear:active,
+.btn-equal:active {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn-operator {
+    background-color: orange;
+    width: 50px;
+}
+
+.btn-operator:active {
+    background-color: rgb(228, 186, 109);
+    
+}
+
+.btn-clear {
+    font-size: 20px;
 }
 
 .calc-container{
@@ -16,10 +40,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     background-color: gray;
-    margin: 10px;
+    margin: 120px;
     padding: 10px;
-    width: 300px;
+    width: 250px;
     border-radius: 25px;
+    gap: 5px;
+
 }
 
 .display {
